@@ -77,6 +77,24 @@
       "name": "Slack",
       "image": "slack.png",
       "link": "https://slack.com/"
+    },
+    {
+      "id": 23,
+      "name": "Postman",
+      "image": "postman.png",
+      "link": "https://www.postman.com/"
+    },
+    {
+      "id": 24,
+      "name": "MDN Web Docs",
+      "image": "mdn.png",
+      "link": "https://developer.mozilla.org/en-US/"
+    },
+    {
+      "id": 25,
+      "name": "JSON",
+      "image": "json.png",
+      "link": "https://www.json.org/json-en.html"
     }
   ]
 }
