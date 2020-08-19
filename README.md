@@ -1,3 +1,5 @@
+# Cohort 40
+
 # Class Website Template Repo
 
 This is a simple template for NSS students to use to create their class website. Employers are looking for a simple website where they can easily see each students' quick summary and links to Github, LinkedIn, and website. Your class website should look nice and professional, but no need to get fancy. ;)
