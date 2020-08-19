@@ -85,12 +85,6 @@
       "link": "https://www.postman.com/"
     },
     {
-      "id": 24,
-      "name": "MDN Web Docs",
-      "image": "mdn.png",
-      "link": "https://developer.mozilla.org/en-US/"
-    },
-    {
       "id": 25,
       "name": "JSON",
       "image": "json.png",
