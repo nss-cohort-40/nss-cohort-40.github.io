@@ -80,6 +80,19 @@
     },
     {
       "id": 7,
+      "firstName": "Adrian",
+      "lastName": "Garmendia",
+      "reelThemIn": "<p></p>",
+      "bio": "<p></p>",
+      "github": "https://github.com/AdiGarmendia",
+      "linkedIn": "https://www.linkedin.com/in/adriangarmendia/",
+      "portfolio": "https://adigarmendia.github.io/",
+      "email": "dejima@gmail.com",
+      "proImg": "/BW/AdrianBW.jpg",
+      "funImg": ""
+    },
+    {
+      "id": 8,
       "firstName": "Ronald",
       "lastName": "Lankford",
       "reelThemIn": "<p></p>",
@@ -92,7 +105,7 @@
       "funImg": ""
     },
     {
-      "id": 8,
+      "id": 9,
       "firstName": "Elijah",
       "lastName": "Lavoie",
       "reelThemIn": "<p></p>",
@@ -105,7 +118,7 @@
       "funImg": ""
     },
     {
-      "id": 8,
+      "id": 10,
       "firstName": "Davis",
       "lastName": "Lindell",
       "reelThemIn": "<p></p>",
@@ -118,7 +131,7 @@
       "funImg": ""
     },
     {
-      "id": 9,
+      "id": 11,
       "firstName": "McLane Brownlee",
       "lastName": "Michelle",
       "reelThemIn": "<p>You're still muted.</p>",
@@ -131,7 +144,7 @@
       "funImg": ""
     },
     {
-      "id": 10,
+      "id": 12,
       "firstName": "Daniel",
       "lastName": "Meza",
       "reelThemIn": "<p></p>",
@@ -144,7 +157,7 @@
       "funImg": ""
     },
     {
-      "id": 11,
+      "id": 13,
       "firstName": "Kaleb",
       "lastName": "Moran",
       "reelThemIn": "<p>You're still muted.</p>",
@@ -157,7 +170,7 @@
       "funImg": ""
     },
     {
-      "id": 12,
+      "id": 14,
       "firstName": "Felipe",
       "lastName": "Moura Fonseca Cavalcanti",
       "reelThemIn": "<p>“I have little doubt that when St. George had killed the dragon he was heartily afraid of the princess.” G. K. Chesterton</p>",
@@ -170,7 +183,7 @@
       "funImg": ""
     },
     {
-      "id": 13,
+      "id": 15,
       "firstName": "Roxanne",
       "lastName": "Nasraty",
       "reelThemIn": "<p>\"What do now?\" -Charlie Kelly</p>",
@@ -183,7 +196,7 @@
       "funImg": ""
     },
     {
-      "id": 14,
+      "id": 16,
       "firstName": "Zach",
       "lastName": "Nicholson",
       "reelThemIn": "<p></p>",
@@ -196,7 +209,7 @@
       "funImg": ""
     },
     {
-      "id": 15,
+      "id": 17,
       "firstName": "Evan",
       "lastName": "Reynolds",
       "reelThemIn": "<p></p>",
@@ -209,7 +222,7 @@
       "funImg": ""
     },
     {
-      "id": 16,
+      "id": 18,
       "firstName": "Leigha",
       "lastName": "Robinson",
       "reelThemIn": "<p></p>",
@@ -222,7 +235,7 @@
       "funImg": ""
     },
     {
-      "id": 17,
+      "id": 19,
       "firstName": "Sarah",
       "lastName": "Holder",
       "reelThemIn": "<p></p>",
@@ -235,7 +248,7 @@
       "funImg": ""
     },
     {
-      "id": 18,
+      "id": 20,
       "firstName": "Tom",
       "lastName": "Strother",
       "reelThemIn": "<p></p>",
@@ -248,7 +261,7 @@
       "funImg": ""
     },
     {
-      "id": 19,
+      "id": 21,
       "firstName": "Kirk",
       "lastName": "Suddoth",
       "reelThemIn": "<p></p>",
@@ -261,7 +274,7 @@
       "funImg": ""
     },
     {
-      "id": 20,
+      "id": 22,
       "firstName": "Stephen",
       "lastName": "Castaneda",
       "reelThemIn": "<p>No one really knows why they're alive until they know what they'll die for. - Dr. Martin Luther King Jr.</p>",
