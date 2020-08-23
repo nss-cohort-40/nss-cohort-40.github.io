@@ -2,14 +2,14 @@ p {
   font-family: "Barlow", sans-serif;
 }
 
-html,
+/* html,
 body {
   max-width: 100%;
   overflow-x: hidden;
   background: url("../images/background.jpg") fixed no-repeat;
   background-size: 100%;
   background-color: black;
-}
+} */
 
 blockquote {
   margin-left: 40px;
@@ -19,11 +19,11 @@ blockquote {
 }
 
 .navbar {
-  background-color: rgb(55, 55, 56);
-  padding: 20px;
+  padding: 5px 22px 5px 22px;
 }
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
   background: white !important;
+  margin-bottom: 1px;
 }
 .navbar-brand {
   display: flex;
@@ -69,11 +69,21 @@ blockquote {
 }
 
 main {
-  margin-bottom: 20px;
-  margin-top: -30px;
+  margin: 30px 0 20px 0;
+  /* margin-bottom: 20px;
+  margin-top: 30px; */
   width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
+}
+
+.container {
+  margin: 0;
+}
+
+.devs {
+  margin: 0;
+  min-width: 100%;
 }
 
 .row {
