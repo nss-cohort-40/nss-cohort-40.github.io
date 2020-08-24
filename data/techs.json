@@ -2,7 +2,7 @@
   "techs": [
     {
       "id": 1,
-      "name": "Javascript",
+      "name": "JavaScript",
       "image": "javascript.png",
       "link": "https://www.javascript.com/"
     },
@@ -14,7 +14,7 @@
     },
     {
       "id": 5,
-      "name": "Github",
+      "name": "GitHub",
       "image": "github.png",
       "link": "https://github.com/"
     },
