@@ -273,4 +273,5 @@ button {
 
 .videoBlock video {
   min-width: 30em;
+  border-radius: 10px;
 }
