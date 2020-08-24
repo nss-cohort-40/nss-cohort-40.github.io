@@ -45,6 +45,7 @@ blockquote {
   box-shadow: 2px 2px 2px rgb(167, 166, 166);
   background-color: #238193 !important;
   color: lightgray;
+  margin-top: 10px;
 }
 .header-text {
   margin: 0 auto;
