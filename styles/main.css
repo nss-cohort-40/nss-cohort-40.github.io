@@ -10,6 +10,11 @@ p {
   color: white;
 }
 
+.nss {
+  position: relative;
+  left: 38%;
+  width: 20%;
+}
 .nav-link {
   color: rgba(33, 37, 41, 0.95) !important;
 }
@@ -146,6 +151,7 @@ main {
 
 .words {
   padding: 50px;
+  padding-bottom: 20px;
 }
 
 .no-gutters {
