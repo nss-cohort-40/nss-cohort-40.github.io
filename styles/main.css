@@ -6,6 +6,14 @@ p {
   background-color: rgba(255, 255, 255, 0.92) !important;
 }
 
+.text-center {
+  color: white;
+}
+
+.nav-link {
+  color: rgba(33, 37, 41, 0.9) !important;
+}
+
 html,
 body {
   max-width: 100%;
@@ -42,8 +50,9 @@ blockquote {
 }
 
 #jumbheader {
-  box-shadow: 2px 2px 2px rgb(167, 166, 166);
-  background-color: #238193 !important;
+  /* box-shadow: 2px 2px 2px rgb(167, 166, 166); */
+  /* background-color: #238193 !important; */
+  background: none !important;
   color: lightgray;
   margin-top: 10px;
 }
@@ -102,9 +111,8 @@ main {
 }
 
 .col-md-3.cohortMems {
-  border: 1px solid lightgray;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px lightgray;
+  box-shadow: 1px 1px 2px black;
   margin: 10px;
   margin-bottom: 25px;
   background: white;
@@ -118,10 +126,12 @@ main {
 
 .technos,
 .words {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -55px;
   background: white;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .techs {
@@ -162,7 +172,7 @@ main {
 }
 
 .contactIcons {
-  color: #238193;
+  color: rgba(33, 37, 41, 0.9);
 }
 .contactIcons:hover {
   transform: scale(1.2);
@@ -196,15 +206,15 @@ main {
 }
 
 #demo-date a {
-  color: #238193 !important;
+  color: white !important;
 }
 
 button {
   cursor: pointer;
 }
 .btn-outline-primary {
-  color: #238193 !important;
-  border-color: #238193 !important;
+  color: rgba(33, 37, 41, 0.9) !important;
+  border-color: rgba(33, 37, 41, 0.9) !important;
 }
 
 .btn-outline-primary:hover {
