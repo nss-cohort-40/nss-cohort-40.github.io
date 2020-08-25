@@ -20,12 +20,15 @@ blockquote {
   background-color: rgb(55, 55, 56);
   padding: 20px;
 }
+
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
   background: white !important;
 }
+
 .navbar-brand {
   display: flex;
 }
+
 .nav-spacing {
   margin-right: 2em;
 }
@@ -39,6 +42,7 @@ blockquote {
   background-color: #2e2e2e !important;
   color: lightgray;
 }
+
 .header-text {
   margin: 0 auto;
   padding-top: 10px;
@@ -59,6 +63,7 @@ blockquote {
 .jumbotron.jumbotron-fluid {
   background: none;
 }
+
 .jumbotron.jumbotron-fluid img {
   background: none;
   width: 100%;
@@ -146,6 +151,7 @@ main {
 .contactIcons {
   color: #2e2e2e;
 }
+
 .contactIcons:hover {
   transform: scale(1.2);
 }
@@ -184,6 +190,7 @@ main {
 button {
   cursor: pointer;
 }
+
 .btn-outline-primary {
   color: #2e2e2e !important;
   border-color: #2e2e2e !important;
@@ -208,6 +215,7 @@ button {
 }
 
 @media (max-width: 900px) {
+
   /* body {
         background: url("../assets/images/bg.jpg") repeat;
     } */
@@ -215,32 +223,52 @@ button {
     background: white;
     margin-top: 30px;
   }
+
   .jumbotron.jumbotron-fluid.sm-width {
     width: 100%;
   }
+
   .header-text {
     margin: 0 auto;
     height: 30px;
   }
+
   .header-text h2 {
     font-size: 1.5em;
     margin-top: -10px;
   }
+
   .modal-body {
     display: block;
   }
+
   .modal-content {
     width: 100%;
   }
+
   .modal-body img {
     width: 100%;
   }
+
   main {
     margin-bottom: 100px;
     margin-top: -50px;
     width: 100%;
   }
+
   .navbar-brand img {
     padding-right: none;
   }
+}
+
+.videoBlock {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 110px;
+}
+
+.videoBlock video {
+  min-width: 30em;
+  border-radius: 10px;
 }
