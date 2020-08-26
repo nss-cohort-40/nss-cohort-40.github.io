@@ -78,8 +78,8 @@ function cohortMembers(list) {
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              <div class="media d-flex flex-wrap">
+            <div class="modal-body align-items-center">
+              <div class="media d-flex flex-wrap align-items-center">
                 <img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/>
                 <div class="media-body m-3">
                   <h5 class="text-center media-object">${item.reelThemIn}</h5>
