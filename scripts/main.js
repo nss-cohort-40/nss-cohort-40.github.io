@@ -84,17 +84,19 @@ function cohortMembers(list) {
                 <div class="media-body m-3">
                   <h5 class="text-center media-object">${item.reelThemIn}</h5>
                   ${item.bio}
+                  </div>
+          </div>
                 `;
     studentInfo += studentContact;
     studentInfo += `
+    
               <center>
                 <button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
                   Back
                 </button>
               </center>
             </div>
-          </div>
-          </div>
+          
           </div> `;
     } else {
       studentInfo += `
