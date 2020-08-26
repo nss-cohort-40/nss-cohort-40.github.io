@@ -272,3 +272,10 @@ button {
   min-width: 30em;
   border-radius: 10px;
 }
+
+@media(min-width: 0px) {
+  .videoBlock {
+    padding-top: 210px;
+  }
+
+}
