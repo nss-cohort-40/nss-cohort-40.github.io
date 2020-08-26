@@ -1,3 +1,11 @@
+$('.navbar-collapse').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+
+$('body').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+
 // initialize the tool-tip plugin for Bootstrap4
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
@@ -62,36 +70,36 @@ function cohortMembers(list) {
       //modal info
       studentInfo += `
         <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-           <h5 class="modal-title title-font" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5>
+              <h5 class="modal-title title-font" id="cohortMember${item.id}Label">${item.firstName} ${item.lastName}</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-            <center><img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/></center><br>
-
-            `;
-
-      studentInfo += studentContact;
-
-      studentInfo += `
-      
-    ${item.bio}
-    </div>
-    <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
-      Back
-              </button></center>
-            
-          </div >
-        </div >
-      </div > `;
+              <div class="media d-flex flex-wrap">
+                <img src="images/classmates/${item.funImg}" alt="${item.firstName} ${item.lastName} fun"/>
+                <div class="media-body m-3">
+                  <h5 class="text-center media-object">${item.reelThemIn}</h5>
+                  ${item.bio}
+                `;
+    studentInfo += studentContact;
+    studentInfo += `
+              <center>
+                <button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
+                  Back
+                </button>
+              </center>
+            </div>
+          </div>
+          </div>
+          </div> `;
     } else {
       studentInfo += `
-      </div>
         </div>
+      </div>
         `;
     }
     document.getElementById("cohort").innerHTML += studentInfo;
