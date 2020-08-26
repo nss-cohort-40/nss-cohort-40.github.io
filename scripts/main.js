@@ -1,3 +1,11 @@
+$('.navbar-collapse').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
+
+$('body').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+
 // initialize the tool-tip plugin for Bootstrap4
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
