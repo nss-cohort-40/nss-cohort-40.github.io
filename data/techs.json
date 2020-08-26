@@ -1,6 +1,5 @@
 {
-  "techs": [
-    {
+  "techs": [{
       "id": 1,
       "name": "Javascript",
       "image": "javascript.png",
@@ -35,12 +34,6 @@
       "name": "NPM",
       "image": "npm.png",
       "link": "https://www.npmjs.com/"
-    },
-    {
-      "id": 15,
-      "name": "SQLite3",
-      "image": "sqlite.png",
-      "link": "https://www.sqlite.org/"
     },
     {
       "id": 17,

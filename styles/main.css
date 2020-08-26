@@ -48,13 +48,21 @@ blockquote {
   background-color: #2e2e2e !important;
   color: lightgray;
 }
+
 /* lr STYLEING */
 
 #marble_bg {
   /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
   background: url("../images/purpleMatchedWhiteMarble\ copy.png");
-  background-size: 100%;
+  background-size: cover;
 }
+
+.marble_bg {
+  /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
+  background: url("../images/purpleMatchedWhiteMarble\ copy.png");
+  background-size: cover;
+}
+
 .header-text {
   margin: 0 auto;
   padding-top: 10px;
@@ -227,6 +235,7 @@ button {
 }
 
 @media (max-width: 900px) {
+
   /* body {
         background: url("../assets/images/bg.jpg") repeat;
     } */
