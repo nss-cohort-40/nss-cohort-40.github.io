@@ -1,6 +1,5 @@
 {
-  "cohort": [
-    {
+  "cohort": [{
       "id": 1,
       "firstName": "John",
       "lastName": "Bain",
@@ -265,7 +264,7 @@
       "firstName": "Tom",
       "lastName": "Strother",
       "reelThemIn": "<p></p>",
-      "bio": "<p></p>",
+      "bio": "<p>I am Tom Strother, web developer based in Nashville, TN. Becoming a Software Developer was an interesting path for me and certainly not a straight one. I spent 15+ years traveling in entertainment touring and corporate production. Over that time, I discovered my passion and skill for problem solving and critical thinking. When I had a need to limit my travel I was excited to learn that Software Development was a perfect fit for my skillset.<br><br>I'm now focused on creative solutions for software development with a positive and calm mindset in any situation. I have a very diverse background in multi-media and event technology with a strong history in leading team driven project execution for clients with expectations of flawlessness.<br><br>I have experience with a very diverse Tech Stack ranging from Vanilla Javascript, React, Python, Django HTML, and CSS. I also have experience working with Rest API and Postman for Database managed projects. On the design side I do have knowledge and working experience with the Adobe Suite (Photoshop, Premier Pro, XD, After Effects)</p>",
       "github": "https://github.com/tstrotherIV",
       "linkedIn": "https://www.linkedin.com/in/tomstrother/",
       "portfolio": "https://tstrotheriv.github.io/",
@@ -278,7 +277,7 @@
       "firstName": "Kirk",
       "lastName": "Sudduth",
       "reelThemIn": "<p></p>",
-      "bio": "<p></p>",
+      "bio": "<p>Most of my working life has been spent punching the clock at restaurants. Specifically, Burger Up and Burger Up East Nashville. Restaurants are social places and I made some lasting relationships with regulars from my time there. The soft skills I have earned since I began working at restaurants are immeasurable. I thoroughly enjoyed my experience working at restaurants, but I felt the need to shift careers because software development is incredibly exciting and a tornado on March 3 destroyed BU East. When I'm not wading through the murky water of opportunity disguised as obstacle, I'm really loving getting to spend all this extra time with my partner and our child! Self-improvement is my daily pursuit.</p>",
       "github": "https://github.com/kirksudduth",
       "linkedIn": "https://www.linkedin.com/in/kirksudduth/",
       "portfolio": "https://kirksudduth.github.io/KirkSudduth/",
