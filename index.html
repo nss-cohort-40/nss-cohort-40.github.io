@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Cohort 40 - Nashville Software School</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,11 +8,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-</head>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!-- Navigation and Header Bar -->
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
@@ -21,9 +23,8 @@
             <a class="navbar-brand" href="#">
                 <img src="images/purpleLogo.png" class="d-inline-block align-top logo" alt="Cohort 40 Logo">
             </a>
-            <a href="#">
-                <h2 id="cohort22"></h2>
-
+            <a class="nav-link rsvp" href="https://www.eventbrite.com/o/nashville-software-school-7812824605" target="_blank">
+            9/24 Demo Day | RSVP
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -47,37 +48,54 @@
     </header>
 
     <main>
-        <!-- developer section -->
-        <div class="container devs">
-        <a id="thedevelopers"></a>
-        <div class="jumbotron jumbotron-fluid sm-width jumbodev">
-            <nav id="jumbheader" class="navbar navbar-light bg-light">
-                <span class="header-text">
-                    <h1 class="title-font">The Developers</h1>
-                </span>
-            </nav>
-        </div>
-            <!-- update href to be the exact link for your demo day's Eventbrite page -->
-            <h3 id="demo-date"><a href="https://www.eventbrite.com/o/nashville-software-school-7812824605" target="_blank">Come see us demo on 9/24!</a></h3>
-            <div id="cohort" class="row">
-                <!-- content inserted from the cohort.json file -->
-            </div>
-        </div>
 
-        <!-- technology section -->
-        <a id="techsection"></a>
-        <div class="jumbotron jumbotron-fluid sm-width">
-            <nav id="jumbheader" class="navbar navbar-light bg-light">
-                <span class="header-text">
-                    <h1 class="title-font">Technologies</h1>
-                </span>
-            </nav>
+    <!-- hero video -->
+    <div class="videoBlock">
+        <video width="37%" src="images/Shortend_Science_Thought_Bubble.mp4" type="video/mp4"  allowfullscreen autoplay muted></video>
+    </div>
+
+    <!-- developer section -->
+    <a id="thedevelopers"></a>
+    <div class="jumbotron jumbotron-fluid sm-width jumbodev">
+        <nav id="jumbheader" class="navbar navbar-light bg-light">
+            <span class="header-text">
+                <h1 class="title-font">The Developers</h1>
+            </span>
+        </nav>
+    </div>
+    <br><br>
+    <main>
+    
+      <div class="container">
+        <!-- Do not remove H1 tag, it may be moved higher on the page. -->
+        <h1 class="text-center">Nashville Software School Cohort 40</h1>
+        <!-- update href to be the exact link for your demo day's Eventbrite page -->
+        <h3 id="demo-date">
+          <a
+            href="https://www.eventbrite.com/o/nashville-software-school-7812824605"
+            target="_blank"
+            >Come see us demo on 9/24!</a
+          >
+        </h3>
+        <div id="cohort" class="row">
+          <!-- content inserted from the cohort.json file -->
         </div>
-        <div class="container technos">
-            <div id="techs" class="row">
-                <!-- content inserted from the techs.json file -->
-            </div>
+      </div>
+
+      <!-- technology section -->
+      <a id="techsection"></a>
+      <div class="jumbotron jumbotron-fluid sm-width">
+        <nav id="jumbheader" class="navbar navbar-light bg-light">
+          <span class="header-text">
+            <h1 class="title-font">Technologies</h1>
+          </span>
+        </nav>
+      </div>
+      <div class="container technos">
+        <div id="techs" class="row">
+          <!-- content inserted from the techs.json file -->
         </div>
+      </div>
 
         <!-- thanks section -->
         <a id="thankyou"></a>
@@ -119,18 +137,27 @@
                 <img src="images/NSS.png" class="nss" alt="NSS Logo">
             </div>
         </div>
+      </div>
     </main>
 
 
     <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+      crossorigin="anonymous"
+    ></script>
 
     <script type="text/javascript" src="scripts/main.js"></script>
-</body>
-
+  </body>
 </html>
