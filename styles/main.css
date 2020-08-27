@@ -1,5 +1,3 @@
-
-
 .modal-body .studentContact {
   margin-left: 150px;
   margin-right: 150px;
@@ -210,10 +208,12 @@ button {
   .fa-3x {
     font-size: 2.5em !important;
   }
+
   .words {
     padding: 50px;
     margin: 10px;
   }
+
   .techs {
     width: 70px;
     margin: 20px 0px;
@@ -223,11 +223,13 @@ button {
 @media (min-width: 768px) and (max-width: 991px) {
   .fa-3x {
     font-size: 2em !important;
-  } 
+  }
+
   .words {
     padding: 50px;
     margin: 10px;
   }
+
   .techs {
     width: 70px;
     margin: 20px 0px;
@@ -261,7 +263,7 @@ button {
   .modal-body img {
     width: 100%;
   }
-  
+
   main {
     margin-top: -50px;
     width: 100%;
@@ -271,7 +273,8 @@ button {
     padding-right: none;
   }
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
   .techs {
     width: 70px;
     margin: 20px 0px;
@@ -279,8 +282,6 @@ button {
 }
 
 .videoBlock {
-  display: flex;
-  justify-content: center;
   padding-bottom: 10px;
   padding-top: 110px;
 }
@@ -289,7 +290,7 @@ button {
   border-radius: 10px;
 }
 
-.video{
-  width:37%;
+.video {
+  width: 37%;
   min-width: 320px;
 }
