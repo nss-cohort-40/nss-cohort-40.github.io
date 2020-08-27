@@ -7,6 +7,7 @@
 .modal-header .close {
   color: white;
   opacity: 1;
+  text-shadow: 0 1px 0 #000;
 }
 
 .navbar-brand:hover {
@@ -221,9 +222,9 @@ main {
 }
 
 #demo-date a {
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
   /* color: rgb(247, 48, 48) !important; */
-  color: #8990d0;
+  color: #7c82bd;
 }
 
 button {
