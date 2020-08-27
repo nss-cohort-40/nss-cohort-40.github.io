@@ -10,7 +10,7 @@ p {
 }
 
 .bg-light {
-  background-color: rgba(255, 255, 255, 0.92) !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
 .text-center {
@@ -18,10 +18,11 @@ p {
 }
 
 .nss {
-  position: relative;
+  min-width: 150px;
   left: 38%;
   width: 20%;
 }
+
 .nav-link {
   color: rgba(33, 37, 41, 0.95) !important;
 }
@@ -315,10 +316,14 @@ button {
 
 .rsvp {
   font-weight: 700;
-  border: 1px solid rgba(33, 37, 41, 0.95);
-  background-color: rgba(33, 37, 41, 0.95);
-  color: whitesmoke !important;
-  border-radius: 10px;
+  border: 2px solid rgba(33, 37, 41, 0.95);
+  color: rgba(33, 37, 41, 0.95) !important;
+  border-radius: 5px;
   text-align: center;
   vertical-align: center;
+}
+
+.rsvp:hover {
+  color: rgba(255, 255, 255, 0.92) !important;
+  background-color: rgba(33, 37, 41, 0.95);
 }
