@@ -4,9 +4,37 @@
   margin-top: 20px;
 }
 
+.modal-header .close {
+  color: white;
+  opacity: 1;
+  text-shadow: 0 1px 0 #000;
+}
+
+.navbar-brand:hover {
+  cursor: context-menu;
+}
+
 p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.text-center {
+  color: #2e2e2e;
+}
+
+.nss {
+  min-width: 150px;
+  left: 38%;
+  width: 20%;
+}
+
+.nav-link {
+  color: rgba(33, 37, 41, 0.95) !important;
 }
 
 html,
@@ -24,12 +52,12 @@ blockquote {
 }
 
 .navbar {
-  background-color: rgb(55, 55, 56);
-  padding: 20px;
+  padding: 5px 22px 5px 22px;
 }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
   background: white !important;
+  margin-bottom: 1px;
 }
 
 .navbar-brand {
@@ -47,6 +75,7 @@ blockquote {
 #jumbheader {
   background-color: #2e2e2e !important;
   color: lightgray;
+  padding: 20px;
 }
 
 /* lr STYLEING */
@@ -59,7 +88,7 @@ blockquote {
 
 .header-text {
   margin: 0 auto;
-  padding-top: 10px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
   font-weight: bold;
   height: 50px;
   color: white;
@@ -68,6 +97,7 @@ blockquote {
 .title-font {
   text-align: center;
   vertical-align: middle;
+  margin-bottom: 0px;
 }
 
 .logo {
@@ -84,6 +114,11 @@ blockquote {
   margin-top: -80px;
 }
 
+.jumbodev {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 main {
   /* margin-bottom: 20px; */
   margin-top: -30px;
@@ -94,6 +129,7 @@ main {
 
 .row {
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .navbar-collapse {
@@ -103,9 +139,8 @@ main {
 }
 
 .col-md-3.cohortMems {
-  border: 1px solid lightgray;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px lightgray;
+  box-shadow: 1px 1px 2px black;
   margin: 10px;
   margin-bottom: 25px;
   background: white;
@@ -113,10 +148,12 @@ main {
 
 .technos,
 .words {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -55px;
   background: white;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .no-gutters {
@@ -156,8 +193,8 @@ main {
 }
 
 .modal-header {
-  background-color: lightgray !important;
-  color: #2e2e2e;
+  background-color: #2e2e2e;
+  color: white;
 }
 
 .modal-body img {
@@ -185,7 +222,9 @@ main {
 }
 
 #demo-date a {
-  color: rgb(247, 48, 48) !important;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+  /* color: rgb(247, 48, 48) !important; */
+  color: #7c82bd;
 }
 
 button {
@@ -211,7 +250,8 @@ button {
 
   .words {
     padding: 50px;
-    margin: 10px;
+    margin: 10px auto;
+    padding-bottom: 1rem;
   }
 
   .techs {
@@ -224,10 +264,9 @@ button {
   .fa-3x {
     font-size: 2em !important;
   }
-
   .words {
     padding: 50px;
-    margin: 10px;
+    margin: 10px auto;
   }
 
   .techs {
@@ -273,7 +312,6 @@ button {
     padding-right: none;
   }
 }
-
 @media (min-width: 992px) {
   .techs {
     width: 70px;
@@ -282,12 +320,26 @@ button {
 }
 
 .videoBlock {
-  padding-bottom: 10px;
-  padding-top: 110px;
+  padding-bottom: 120px;
+  padding-top: 200px;
 }
 
 .videoBlock video {
   border-radius: 10px;
+}
+
+.rsvp {
+  font-weight: 700;
+  border: 2px solid rgba(33, 37, 41, 0.95);
+  color: rgba(33, 37, 41, 0.95) !important;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.rsvp:hover {
+  color: rgba(255, 255, 255, 0.92) !important;
+  background-color: rgba(33, 37, 41, 0.95);
 }
 
 .video {
