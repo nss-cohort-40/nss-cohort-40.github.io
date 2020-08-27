@@ -1,3 +1,5 @@
+
+
 .modal-body .studentContact {
   margin-left: 150px;
   margin-right: 150px;
@@ -223,21 +225,22 @@ button {
 @media (min-width: 768px) and (max-width: 991px) {
   .fa-3x {
     font-size: 2em !important;
-  }
+  } 
 }
+
 
 @media (max-width: 900px) {
   /* body {
         background: url("../assets/images/bg.jpg") repeat;
     } */
-  .jumbotron.jumbotron-fluid img {
+  /* .jumbotron.jumbotron-fluid img {
     background: white;
     margin-top: 30px;
   }
 
   .jumbotron.jumbotron-fluid.sm-width {
     width: 100%;
-  }
+  } */
 
   .header-text {
     margin: 0 auto;
@@ -280,12 +283,10 @@ button {
 }
 
 .videoBlock video {
-  min-width: 30em;
   border-radius: 10px;
 }
 
-@media (min-width: 0px) {
-  .videoBlock {
-    padding-top: 210px;
-  }
+.video{
+  width:37%;
+  min-width: 320px;
 }
