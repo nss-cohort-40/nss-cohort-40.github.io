@@ -247,11 +247,13 @@ button {
   .fa-3x {
     font-size: 2.5em !important;
   }
+
   .words {
     padding: 50px;
     margin: 10px auto;
     padding-bottom: 1rem;
   }
+
   .techs {
     width: 70px;
     margin: 20px 0px;
@@ -266,6 +268,7 @@ button {
     padding: 50px;
     margin: 10px auto;
   }
+
   .techs {
     width: 70px;
     margin: 20px 0px;
@@ -317,8 +320,6 @@ button {
 }
 
 .videoBlock {
-  display: flex;
-  justify-content: center;
   padding-bottom: 120px;
   padding-top: 200px;
 }
@@ -326,12 +327,6 @@ button {
 .videoBlock video {
   border-radius: 10px;
 }
-
-/* @media (min-width: 0px) {
-  .videoBlock {
-    padding-top: 210px;
-  }
-} */
 
 .rsvp {
   font-weight: 700;
