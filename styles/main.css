@@ -53,12 +53,6 @@ blockquote {
 
 /* lr STYLEING */
 
-#marble_bg {
-  /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
-  background: url("../images/purpleMatchedWhiteMarble\ copy.png");
-  background-size: cover;
-}
-
 .marble_bg {
   /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
   background: url("../images/purpleMatchedWhiteMarble\ copy.png");
@@ -138,9 +132,7 @@ main {
   margin: 20px 0px;
 }
 
-.words {
-  padding: 50px;
-}
+
 
 .no-gutters {
   margin-right: 0;
@@ -199,6 +191,8 @@ main {
   font-size: 1em;
   background-color: #2e2e2e !important;
   color: white;
+  text-align: center;
+  display: block;
 }
 
 #demo-date {
@@ -224,9 +218,17 @@ button {
 }
 
 /* adjusts size of contact icons depending on size of card */
+@media (max-width:450px) {
+  .words {
+    padding: 15px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .fa-3x {
     font-size: 2.5em !important;
+  }
+  .words {
+    padding: 50px;
   }
 }
 
@@ -234,22 +236,13 @@ button {
   .fa-3x {
     font-size: 2em !important;
   } 
+  .words {
+    padding: 50px;
+  }
 }
 
 
 @media (max-width: 900px) {
-
-  /* body {
-        background: url("../assets/images/bg.jpg") repeat;
-    } */
-  /* .jumbotron.jumbotron-fluid img {
-    background: white;
-    margin-top: 30px;
-  }
-
-  .jumbotron.jumbotron-fluid.sm-width {
-    width: 100%;
-  } */
 
   .header-text {
     margin: 0 auto;
@@ -272,9 +265,8 @@ button {
   .modal-body img {
     width: 100%;
   }
-
+  
   main {
-    margin-bottom: 100px;
     margin-top: -50px;
     width: 100%;
   }
