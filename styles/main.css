@@ -1,3 +1,5 @@
+
+
 .modal-body .studentContact {
   margin-left: 150px;
   margin-right: 150px;
@@ -50,12 +52,6 @@ blockquote {
 }
 
 /* lr STYLEING */
-
-#marble_bg {
-  /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
-  background: url("../images/purpleMatchedWhiteMarble\ copy.png");
-  background-size: cover;
-}
 
 .marble_bg {
   /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
@@ -117,27 +113,12 @@ main {
   background: white;
 }
 
-.col-sm-2.technologies {
-  border: none;
-  border-radius: none;
-  box-shadow: none;
-}
-
 .technos,
 .words {
   margin-top: -55px;
   background: white;
   padding: 20px;
   border-radius: 20px;
-}
-
-.techs {
-  width: 70px;
-  margin: 20px 0px;
-}
-
-.words {
-  padding: 50px;
 }
 
 .no-gutters {
@@ -197,6 +178,8 @@ main {
   font-size: 1em;
   background-color: #2e2e2e !important;
   color: white;
+  text-align: center;
+  display: block;
 }
 
 #demo-date {
@@ -222,30 +205,39 @@ button {
 }
 
 /* adjusts size of contact icons depending on size of card */
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .fa-3x {
     font-size: 2.5em !important;
+  }
+  .words {
+    padding: 50px;
+    margin: 10px;
+  }
+  .techs {
+    width: 70px;
+    margin: 20px 0px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .fa-3x {
     font-size: 2em !important;
+  } 
+  .words {
+    padding: 50px;
+    margin: 10px;
+  }
+  .techs {
+    width: 70px;
+    margin: 20px 0px;
   }
 }
 
 @media (max-width: 900px) {
-
-  /* body {
-        background: url("../assets/images/bg.jpg") repeat;
-    } */
-  .jumbotron.jumbotron-fluid img {
-    background: white;
-    margin-top: 30px;
-  }
-
-  .jumbotron.jumbotron-fluid.sm-width {
-    width: 100%;
+  .techs {
+    width: 70px;
+    margin: 20px 0px;
   }
 
   .header-text {
@@ -269,15 +261,20 @@ button {
   .modal-body img {
     width: 100%;
   }
-
+  
   main {
-    margin-bottom: 100px;
     margin-top: -50px;
     width: 100%;
   }
 
   .navbar-brand img {
     padding-right: none;
+  }
+}
+@media (min-width: 992px){
+  .techs {
+    width: 70px;
+    margin: 20px 0px;
   }
 }
 
@@ -289,12 +286,10 @@ button {
 }
 
 .videoBlock video {
-  min-width: 30em;
   border-radius: 10px;
 }
 
-@media (min-width: 0px) {
-  .videoBlock {
-    padding-top: 210px;
-  }
+.video{
+  width:37%;
+  min-width: 320px;
 }
