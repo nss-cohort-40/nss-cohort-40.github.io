@@ -208,10 +208,14 @@ button {
 @media (max-width:768px) {
   .words {
     padding: 15px;
+    width: auto;
   }
   .techs {
     width: 70px;
     margin: 20px 0px;
+  }
+  .container {
+    max-width: 95%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -220,6 +224,7 @@ button {
   }
   .words {
     padding: 50px;
+    margin: 10px;
   }
   .techs {
     width: 70px;
@@ -233,6 +238,7 @@ button {
   } 
   .words {
     padding: 50px;
+    margin: 10px;
   }
   .techs {
     width: 70px;

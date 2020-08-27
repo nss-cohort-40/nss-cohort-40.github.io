@@ -26,25 +26,25 @@ function cohortMembers(list) {
     //if student doesn't have a portfolio site then don't display the icon
     if (item.portfolio != null) {
       studentContact += `<a href=${item.portfolio} target="_blank">
-      <i class="fas fa-globe fa-2x contactIcons"></i>
+      <i class="m-2 fas fa-globe fa-2x contactIcons"></i>
       </a>`;
     }
     //if student doesn't have a github site then don't display the icon
     if (item.github != null) {
       studentContact += `<a href=${item.github} target="_blank">
-      <i class="fab fa-github fa-2x contactIcons"></i>
+      <i class="m-2 fab fa-github fa-2x contactIcons"></i>
       </a>`;
     }
     //if student doesn't have a linkedin site then don't display the icon
     if (item.linkedIn != null) {
       studentContact += `<a href=${item.linkedIn} target="_blank">
-      <i class="fab fa-linkedin fa-2x contactIcons"></i>
+      <i class="m-2 fab fa-linkedin fa-2x contactIcons"></i>
       </a>`;
     }
     //if student doesn't have an email then don't display the icon
     if (item.email != null) {
       studentContact += `<a href=mailto:${item.email}>
-              <i class="fas fa-envelope fa-2x contactIcons"></i>
+              <i class="m-2 fas fa-envelope fa-2x contactIcons"></i>
             </a>`;
     }
     studentContact += `</div>`;
