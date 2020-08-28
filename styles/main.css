@@ -113,6 +113,11 @@ blockquote {
   width: 100%;
 }
 
+.jumbodev {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 main {
   margin-top: -30px;
   width: 100%;
