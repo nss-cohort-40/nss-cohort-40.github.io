@@ -1,3 +1,17 @@
+.rsvp {
+  font-weight: 700;
+  border: 2px solid rgba(33, 37, 41, 0.95);
+  color: rgba(33, 37, 41, 0.95) !important;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.rsvp:hover {
+  color: rgba(255, 255, 255, 0.92) !important;
+  background-color: rgba(33, 37, 41, 0.95);
+}
+
 .modal-body .studentContact {
   margin-left: 150px;
   margin-right: 150px;
@@ -282,20 +296,32 @@ button {
   #thedevelopers{
     display: block;
     position: relative;
-    top: -83px;
+    top: -45px;
     visibility: hidden;
     }
   #techsection{
     display: block;
     position: relative;
-    top: -83px;
+    top: -73px;
     visibility: hidden;
   }
   #thankyou{
     display: block;
     position: relative;
-    top: -83px;
+    top: -73px;
     visibility: hidden;
+  }
+  .rsvp {
+    border: 2px solid rgba(33, 37, 41, 0.95);
+    color: rgba(255, 255, 255, 0.92) !important;
+    background-color: rgba(33, 37, 41, 0.95) !important;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: center;
+  }
+  .rsvp:hover {
+    color: rgba(255, 255, 255, 0.92) !important;
+    background-color: rgba(33, 37, 41, 0.95) !important;
   }
   }
 
@@ -326,16 +352,27 @@ button {
     font-size: 2em !important;
   }
   .techs {
-    width: 70px;
+    width: 60px;
     margin: 20px 0px;
   }
-
   #thedevelopers{
     display: block;
     position: relative;
-    top: -12px;
+    top: -10px;
     visibility: hidden;
   } 
+  #techsection{
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+  }
+  #thankyou{
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+  }
 } 
 
 @media (min-width: 992px) {
@@ -361,20 +398,6 @@ button {
 
 .videoBlock video {
   border-radius: 10px;
-}
-
-.rsvp {
-  font-weight: 700;
-  border: 2px solid rgba(33, 37, 41, 0.95);
-  color: rgba(33, 37, 41, 0.95) !important;
-  border-radius: 5px;
-  text-align: center;
-  vertical-align: center;
-}
-
-.rsvp:hover {
-  color: rgba(255, 255, 255, 0.92) !important;
-  background-color: rgba(33, 37, 41, 0.95);
 }
 
 .video {
