@@ -68,7 +68,7 @@ blockquote {
   margin-right: 2em;
 }
 
-#cohort40 {
+.cohort40 {
   display: inline-block;
 }
 
@@ -78,7 +78,7 @@ blockquote {
   padding: 20px;
 }
 
-/* lr STYLEING */
+/* lr STYLING */
 
 .marble_bg {
   /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
@@ -114,7 +114,6 @@ blockquote {
 }
 
 main {
-  /* margin-bottom: 20px; */
   margin-top: -30px;
   width: 100%;
   overflow-y: hidden;
@@ -236,40 +235,7 @@ button {
 }
 
 /* adjusts size of contact icons depending on size of card */
-
-@media (min-width: 992px) {
-  .fa-3x {
-    font-size: 2.5em !important;
-  }
-
-  .words {
-    padding: 50px;
-    margin: 10px auto;
-    padding-bottom: 1rem;
-  }
-
-  .techs {
-    width: 70px;
-    margin: 20px 0px;
-  }
-}
-
-@media (min-width: 768px) {
-  .fa-3x {
-    font-size: 2em !important;
-  }
-  .words {
-    padding: 50px;
-    margin: 10px auto;
-  }
-
-  .techs {
-    width: 70px;
-    margin: 20px 0px;
-  }
-} 
-
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   .techs {
     width: 70px;
     margin: 20px 0px;
@@ -307,6 +273,82 @@ button {
   }
 }
 
+@media (max-width: 450px){
+  #thedevelopers{
+    display: block;
+    position: relative;
+    top: -83px;
+    visibility: hidden;
+    }
+  #techsection{
+    display: block;
+    position: relative;
+    top: -83px;
+    visibility: hidden;
+  }
+  #thankyou{
+    display: block;
+    position: relative;
+    top: -83px;
+    visibility: hidden;
+  }
+  }
+
+@media (min-width: 451px) {
+  #thedevelopers{
+    display: block;
+    position: relative;
+    top: -40px;
+    visibility: hidden;
+  }
+  #techsection{
+    display: block;
+    position: relative;
+    top: -110px;
+    visibility: hidden;
+  }
+  #thankyou{
+    display: block;
+    position: relative;
+    top: -110px;
+    visibility: hidden;
+  }
+
+  }
+
+@media (min-width: 700px) {
+  .fa-3x {
+    font-size: 2em !important;
+  }
+  .techs {
+    width: 70px;
+    margin: 20px 0px;
+  }
+
+  #thedevelopers{
+    display: block;
+    position: relative;
+    top: -12px;
+    visibility: hidden;
+  } 
+} 
+
+@media (min-width: 992px) {
+  .fa-3x {
+    font-size: 2.5em !important;
+  }
+  .techs {
+    width: 70px;
+    margin: 20px 0px;
+  }
+  #thedevelopers{
+    display: block;
+    position: relative;
+    top: -12px;
+    visibility: hidden;
+    }
+}
+
 .videoBlock {
   padding-bottom: 120px;
   padding-top: 200px;
@@ -334,3 +376,13 @@ button {
   width: 37%;
   min-width: 320px;
 }
+
+.thanksSection{
+  height: 760px;
+}
+
+.container {
+  width: 95%;
+  align-items: center;
+}
+
