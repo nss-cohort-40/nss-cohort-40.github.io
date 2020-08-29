@@ -1,3 +1,7 @@
+.navbar-brand {
+  margin: 0;
+}
+
 .rsvp {
   font-weight: 700;
   border: 2px solid rgba(33, 37, 41, 0.95);
@@ -65,17 +69,9 @@ blockquote {
   padding: 2em;
 }
 
-.navbar {
-  padding: 5px 22px 5px 22px;
-}
-
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
   background: white !important;
   margin-bottom: 1px;
-}
-
-.navbar-brand {
-  display: flex;
 }
 
 .nav-spacing {
@@ -95,7 +91,6 @@ blockquote {
 /* lr STYLING */
 
 .marble_bg {
-  /* background: url("../images/overlay.png"), url("../images/Marbel.png"); */
   background: url("../images/purpleMatchedWhiteMarble\ copy.png");
   background-size: cover;
 }
@@ -160,12 +155,11 @@ main {
 
 .technos,
 .words {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -55px;
   background: white;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .no-gutters {
@@ -286,10 +280,6 @@ button {
     margin-top: -50px;
     width: 100%;
   }
-
-  .navbar-brand img {
-    padding-right: none;
-  }
 }
 
 @media (max-width: 450px){
@@ -318,12 +308,17 @@ button {
     border-radius: 5px;
     text-align: center;
     vertical-align: center;
+    margin: 0;
   }
   .rsvp:hover {
     color: rgba(255, 255, 255, 0.92) !important;
     background-color: rgba(33, 37, 41, 0.95) !important;
   }
+  .container{
+    width: 95%;
   }
+ 
+}
 
 @media (min-width: 451px) {
   #thedevelopers{
@@ -344,9 +339,11 @@ button {
     top: -110px;
     visibility: hidden;
   }
-
+  .container{
+    width: 95%;
   }
-
+ 
+}
 @media (min-width: 700px) {
   .fa-3x {
     font-size: 2em !important;
@@ -372,6 +369,9 @@ button {
     position: relative;
     top: -70px;
     visibility: hidden;
+  }
+  .rsvp{
+    margin-left: 10px;
   }
 } 
 
@@ -406,11 +406,13 @@ button {
 }
 
 .thanksSection{
-  height: 760px;
+  display: flex;
+  flex: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .container {
-  width: 95%;
   align-items: center;
 }
 
