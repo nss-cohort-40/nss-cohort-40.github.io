@@ -1,3 +1,33 @@
+h1 {
+  padding-top: 2%;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+footer > div > p:last-of-type {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+footer > div > p:first-of-type {
+  font-size: 0.75em !important;
+}
+
+.footer {
+  padding: 0.75% 2% !important;
+}
+
+.footer > div > p > a:link,
+.footer > div > p > a:visited {
+  color: #7c82bd;
+  text-shadow: 0 0 0 rgba(124, 130, 189, 0.8);
+  font-weight: 400;
+}
+
+.words {
+  text-align: center;
+  padding: 3% 7% 1.5% !important;
+}
+
 .navbar-brand {
   margin: 0;
 }
@@ -261,7 +291,6 @@ button {
 
   .header-text h2 {
     font-size: 1.5em;
-    margin-top: -10px;
   }
 
   .modal-body {
@@ -280,22 +309,25 @@ button {
     margin-top: -50px;
     width: 100%;
   }
+  h1 {
+    padding-top: 3%;
+  }
 }
 
-@media (max-width: 450px){
-  #thedevelopers{
+@media (max-width: 450px) {
+  #thedevelopers {
     display: block;
     position: relative;
     top: -45px;
     visibility: hidden;
-    }
-  #techsection{
+  }
+  #techsection {
     display: block;
     position: relative;
     top: -73px;
     visibility: hidden;
   }
-  #thankyou{
+  #thankyou {
     display: block;
     position: relative;
     top: -73px;
@@ -314,36 +346,38 @@ button {
     color: rgba(255, 255, 255, 0.92) !important;
     background-color: rgba(33, 37, 41, 0.95) !important;
   }
-  .container{
+  .container {
     width: 95%;
   }
- 
+  h1 {
+    padding-top: 4%;
+  }
 }
 
 @media (min-width: 451px) {
-  #thedevelopers{
+  #thedevelopers {
     display: block;
     position: relative;
     top: -40px;
     visibility: hidden;
   }
-  #techsection{
+  #techsection {
     display: block;
     position: relative;
     top: -110px;
     visibility: hidden;
   }
-  #thankyou{
+  #thankyou {
     display: block;
     position: relative;
     top: -110px;
     visibility: hidden;
   }
-  .container{
+  .container {
     width: 95%;
   }
- 
 }
+
 @media (min-width: 700px) {
   .fa-3x {
     font-size: 2em !important;
@@ -352,28 +386,28 @@ button {
     width: 60px;
     margin: 20px 0px;
   }
-  #thedevelopers{
+  #thedevelopers {
     display: block;
     position: relative;
     top: -10px;
     visibility: hidden;
-  } 
-  #techsection{
+  }
+  #techsection {
     display: block;
     position: relative;
     top: -70px;
     visibility: hidden;
   }
-  #thankyou{
+  #thankyou {
     display: block;
     position: relative;
     top: -70px;
     visibility: hidden;
   }
-  .rsvp{
+  .rsvp {
     margin-left: 10px;
   }
-} 
+}
 
 @media (min-width: 992px) {
   .fa-3x {
@@ -383,12 +417,12 @@ button {
     width: 70px;
     margin: 20px 0px;
   }
-  #thedevelopers{
+  #thedevelopers {
     display: block;
     position: relative;
     top: -12px;
     visibility: hidden;
-    }
+  }
 }
 
 .videoBlock {
@@ -405,7 +439,7 @@ button {
   min-width: 320px;
 }
 
-.thanksSection{
+.thanksSection {
   display: flex;
   flex: wrap;
   padding-top: 2%;
@@ -416,3 +450,8 @@ button {
   align-items: center;
 }
 
+@media (min-width: 1250px) {
+  footer > div > p:first-of-type {
+    font-size: 0.9em !important;
+  }
+}

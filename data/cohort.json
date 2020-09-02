@@ -31,13 +31,13 @@
       "firstName": "Tanner",
       "lastName": "Brainard",
       "reelThemIn": "<p></p>",
-      "bio": "<p>I'm a junior developer with a love for food, problem solving, languages, and design. A friend introduced programming as similar to learning a foreign language and after realizing its seemingly limitless utility, I’ve been hooked. I'm thrilled to have discovered a career that’ll allow me to express my creativity through design and problem-solving.<br><br>Personal interests include languages, photography, making food, and ultimate frisbee. </p>",
+      "bio": "<p>After quitting university studies and then living in NYC for a few years, I started to explore life outside of the US. I traveled through various parts of the world for a few years and eventually landed in Shanghai, where I started a small bakery business. After three years of living in Shanghai and two years of entrepreneurship, I decided it was time to close shop and start a life back in the US.<br><br>With personal time, I enjoy playing ultimate frisbee, making food, playing board games, partaking in discussions, taking photos, and reading.</p>",
       "github": "https://github.com/tannerb9",
       "linkedIn": "https://www.linkedin.com/in/tannerbrainard/",
-      "portfolio": "",
+      "portfolio": "https://tannerb9.github.io/",
       "email": "tannerbrainard9@gmail.com",
       "proImg": "/BW/TannerBW.jpg",
-      "funImg": "/Color/Tanner-Brainard.png"
+      "funImg": "/fun/tanner.jpg"
     },
     {
       "id": 4,
@@ -216,7 +216,7 @@
       "bio": "<p>I've traveled to Japan to teach English and partnered with insurance brokers to make sure employees could elect health care online. These experiences lead me to discover that I wanted to both interact with a wide range of people and get hands on involvement in making and maintaining the software I use. This lead me to enroll in a full-stack software development bootcamp at Nashville Software School.<br><br>I feel inspired by the constant challenge of keeping up with changing code norms, learning new languages, and knowing that you can always be better than you were the day before. </p>",
       "github": "https://github.com/rsnasraty",
       "linkedIn": "https://www.linkedin.com/in/rsnasraty/",
-      "portfolio": "",
+      "portfolio": "https://rsnasraty.github.io/",
       "email": "rsnasraty@gmail.com",
       "proImg": "/BW/RoxanneBW.jpg",
       "funImg": "/fun/RoxanneFun.jpg"
