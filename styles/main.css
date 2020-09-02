@@ -299,6 +299,7 @@ button {
 
   .modal-content {
     width: 100%;
+    border: none;
   }
 
   .modal-body img {
@@ -454,4 +455,8 @@ button {
   footer > div > p:first-of-type {
     font-size: 0.9em !important;
   }
+}
+
+.modal-content {
+  border: none;
 }
