@@ -78,13 +78,16 @@ function cohortMembers(list) {
               Learn More!
             </button>
           </center>
-          <center>
+          <center>`;
+      if (item.capUrl) {
+        studentInfo += `
             <button type="button" class="btn btn-outline-primary title-font bottom btn-modal-trigger" data-toggle="modal" data-target="#studentCapstone${item.id}">
-          Capstone Demo
-            </button>
-          </center>
-        </div>
-      </div>`;
+            Capstone Demo
+              </button>
+            </center>
+          </div>
+        </div>`;
+      }
       //modal info
       studentInfo += `
         <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
