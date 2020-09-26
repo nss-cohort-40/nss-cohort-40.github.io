@@ -29,6 +29,10 @@ function cohortMembers(list) {
       <i class="m-2 fas fa-globe fa-2x contactIcons"></i>
       </a>`;
     }
+    //if student is marked as hired display a the hired banner
+    if (item.hired === true) {
+      studentContact += `<div class="ribbon ribbon-top-right"><span>Hired</span></div>`;
+    }
     //if student doesn't have a github site then don't display the icon
     if (item.github != null) {
       studentContact += `<a href=${item.github} target="_blank">
