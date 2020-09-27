@@ -11,7 +11,8 @@
       "portfolio": "https://johnbain881.github.io/",
       "email": "johnknoxbain@gmail.com",
       "proImg": "/BW/JohnBW.jpg",
-      "funImg": "/Color/John-Bain1.jpg"
+      "funImg": "/Color/John-Bain1.jpg",
+      "capUrl": "InzCrXfY_MU"
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
       "portfolio": "https://zanebliss.github.io/",
       "email": "zanebliss@icloud.com",
       "proImg": "/BW/ZaneBW.jpg",
-      "funImg": "/Color/Zane-Bliss1.jpg"
+      "funImg": "/Color/Zane-Bliss1.jpg",
+      "hired": true
     },
     {
       "id": 3,
@@ -37,7 +39,8 @@
       "portfolio": "https://tannerb9.github.io/",
       "email": "tannerbrainard9@gmail.com",
       "proImg": "/BW/TannerBW.jpg",
-      "funImg": "/fun/tanner.jpg"
+      "funImg": "/fun/tanner.jpg",
+      "capUrl": "0I8FfuLiOtA"
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
       "portfolio": "https://mbrownlee.github.io/Michelle/",
       "email": "mclanebrownlee@gmail.com",
       "proImg": "/BW/MichelleBW.jpg",
-      "funImg": "/Color/Michelle-McLane-Brownlee1.png"
+      "funImg": "/Color/Michelle-McLane-Brownlee1.png",
+      "capUrl": "Jy9Rbn1gnVE"
     },
     {
       "id": 5,
@@ -63,7 +67,8 @@
       "portfolio": "https://personal-bio-34470.web.app/",
       "email": "stephen.castaneda40@gmail.com",
       "proImg": "/BW/StephenBW.jpg",
-      "funImg": "/fun/Stephen.jpg"
+      "funImg": "/fun/Stephen.jpg",
+      "capUrl": "9ZHnLsWBqok"
     },
     {
       "id": 6,
@@ -76,7 +81,8 @@
       "portfolio": "",
       "email": "felipemouradev@gmail.com",
       "proImg": "/BW/FelipeBW.jpg",
-      "funImg": "/fun/felipe.jpeg"
+      "funImg": "/fun/felipe.jpeg",
+      "capUrl": "KSYQDhYkybA"
     },
     {
       "id": 7,
@@ -89,7 +95,8 @@
       "portfolio": "https://briancravens.github.io/",
       "email": "brian.cravens303@gmail.com",
       "proImg": "/BW/BrianBW.jpg",
-      "funImg": "/Color/Brian-Cravens1.jpg"
+      "funImg": "/Color/Brian-Cravens1.jpg",
+      "capUrl": "fQIUcxZa-dY"
     },
     {
       "id": 8,
@@ -102,7 +109,8 @@
       "portfolio": "https://lukeesworthy.github.io/",
       "email": "lukesworthy@gmail.com",
       "proImg": "/BW/LukeBW.jpg",
-      "funImg": "/Color/Luke-Esworthy1.jpg"
+      "funImg": "/Color/Luke-Esworthy1.jpg",
+      "capUrl": "JZjyaan7O_A"
     },
     {
       "id": 9,
@@ -115,7 +123,8 @@
       "portfolio": "https://david-everett.web.app/",
       "email": "davideverett1989@gmail.com",
       "proImg": "/BW/DavidBW.jpg",
-      "funImg": "/Color/David-Everett1.jpg"
+      "funImg": "/Color/David-Everett1.jpg",
+      "capUrl": "A5pi3zj2EA0"
     },
     {
       "id": 10,
@@ -128,7 +137,8 @@
       "portfolio": "https://adigarmendia.github.io/",
       "email": "dejima@gmail.com",
       "proImg": "/BW/AdrianBW.jpg",
-      "funImg": "/fun/adrian.jpg"
+      "funImg": "/fun/adrian.jpg",
+      "capUrl": "D2a_CbfxugI"
     },
     {
       "id": 11,
@@ -141,7 +151,8 @@
       "portfolio": "https://sarah-holder-sh.web.app/",
       "email": "sr.holder@yahoo.com",
       "proImg": "/BW/SarahBW.jpg",
-      "funImg": "/fun/Sarah_Holder_Fun.jpg"
+      "funImg": "/fun/Sarah_Holder_Fun.jpg",
+      "capUrl": "RXQAg9ewMjA"
     },
     {
       "id": 12,
@@ -154,7 +165,8 @@
       "portfolio": "https://ronaldo1618.github.io/",
       "email": "rolankford@gmail.com",
       "proImg": "/BW/RonaldBW.jpg",
-      "funImg": "/Color/Ronald-Lankford1.jpg"
+      "funImg": "/Color/Ronald-Lankford1.jpg",
+      "capUrl": "SVaspnhddII"
     },
     {
       "id": 13,
@@ -167,7 +179,8 @@
       "portfolio": "https://eli-lavoie.github.io/",
       "email": "storey14@gmail.com",
       "proImg": "/BW/ElijahBW.jpg",
-      "funImg": "/Color/Elijah-Lavoie1.png"
+      "funImg": "/Color/Elijah-Lavoie1.png",
+      "capUrl": "SCyFLyGdlbo"
     },
     {
       "id": 14,
@@ -180,7 +193,8 @@
       "portfolio": "https://davis-lindell-personal-site.web.app/",
       "email": "daviselindell@gmail.com",
       "proImg": "/BW/DavisBW.jpg",
-      "funImg": "/Color/Davis-Lindell1.jpg"
+      "funImg": "/Color/Davis-Lindell1.jpg",
+      "capUrl": "fqOogwMe9RQ"
     },
     {
       "id": 15,
@@ -193,7 +207,8 @@
       "portfolio": "https://danny128373.github.io/",
       "email": "dm3f90@gmail.com",
       "proImg": "/BW/DanielBW.jpg",
-      "funImg": "/fun/daniel_meza_fun_photo.jpg"
+      "funImg": "/fun/daniel_meza_fun_photo.jpg",
+      "capUrl": "Gc8BLAG-YIo"
     },
     {
       "id": 16,
@@ -206,7 +221,8 @@
       "portfolio": "",
       "email": "kalebdmoran@gmail.com",
       "proImg": "/BW/KalebBW.jpg",
-      "funImg": "/Color/Kaleb-Moran1.png"
+      "funImg": "/Color/Kaleb-Moran1.png",
+      "capUrl": ""
     },
     {
       "id": 17,
@@ -219,7 +235,8 @@
       "portfolio": "https://rsnasraty.github.io/",
       "email": "rsnasraty@gmail.com",
       "proImg": "/BW/RoxanneBW.jpg",
-      "funImg": "/fun/RoxanneFun.jpg"
+      "funImg": "/fun/RoxanneFun.jpg",
+      "capUrl": "W9DRYUPVIWo"
     },
     {
       "id": 18,
@@ -232,7 +249,8 @@
       "portfolio": "https://zachnich.github.io/",
       "email": "zach.b.nicholson@gmail.com",
       "proImg": "/BW/ZachBW.jpg",
-      "funImg": "/fun/kidZach.jpg"
+      "funImg": "/fun/kidZach.jpg",
+      "capUrl": "GnZ5pRg-x4U"
     },
     {
       "id": 19,
@@ -245,7 +263,8 @@
       "portfolio": "https://evanreynolds1116.github.io/",
       "email": "evan.m.reynolds95@gmail.com",
       "proImg": "/BW/EvanBW.jpg",
-      "funImg": "/fun/evan.PNG"
+      "funImg": "/fun/evan.PNG",
+      "capUrl": "hDGcfwsKqK0"
     },
     {
       "id": 20,
@@ -258,20 +277,22 @@
       "portfolio": "https://leigharobinson.github.io/",
       "email": "lmarobinson24@gmail.com",
       "proImg": "/BW/LeighaBW.jpg",
-      "funImg": "/Color/Leigha-Robinson1.jpg"
+      "funImg": "/Color/Leigha-Robinson1.jpg",
+      "capUrl": "zNoLnvTvIqU"
     },
     {
       "id": 21,
       "firstName": "Tom",
       "lastName": "Strother",
       "reelThemIn": "<p>\"Roads? Where We’re Going, We Don’t Need Roads.\" - Dr Emmet Brown</p>",
-      "bio": "<p>I am Tom Strother, web developer based in Nashville, TN. Becoming a Software Developer was an interesting path for me and certainly not a straight one. I spent 15+ years traveling in entertainment touring and corporate production. Over that time, I discovered my passion and skill for problem solving and critical thinking. When I had a need to limit my travel I was excited to learn that Software Development was a perfect fit for my skillset.<br><br>I'm now focused on creative solutions for software development with a positive and calm mindset in any situation. I have a very diverse background in multi-media and event technology with a strong history in leading team driven project execution for clients with expectations of flawlessness.<br><br>I have experience with a very diverse Tech Stack ranging from Vanilla Javascript, React, Python, Django HTML, and CSS. I also have experience working with Rest API and Postman for Database managed projects. On the design side I do have knowledge and working experience with the Adobe Suite (Photoshop, Premier Pro, XD, After Effects)</p>",
+      "bio": "<p>Having founded two tech startups and being directly involved with building teams in my past work history, I truly understand a team's value. I know how crucial it is to have a calm and positive mindset in all situations, no matter the circumstance.<br><br>In the Software and Tech industry, continually learning and adapting is required. Over the past 15 years, I have self-taught myself all aspects of the entertainment industry. My start came as an audio engineer at the Conservatory of Recording arts but learned the skills required to not only operate but ultimately lead teams in Video, Lighting, Live Streaming, conference planning, and project management.<br><br>I have experience with a very diverse Tech Stack ranging from Vanilla Javascript, React, Python, Django HTML, and CSS. I also have experience working with Rest API and Postman for Database managed projects. On the design side I do have knowledge and working experience with the Adobe Suite (Photoshop, Premier Pro, XD, After Effects)</p>",
       "github": "https://github.com/tstrotherIV",
       "linkedIn": "https://www.linkedin.com/in/tomstrother/",
       "portfolio": "https://tstrotheriv.github.io/",
       "email": "tom@liveitnowent.com",
       "proImg": "/BW/TomBW.jpg",
-      "funImg": "/Color/Tom-Strother.png"
+      "funImg": "/Color/Tom-Strother.png",
+      "capUrl": "-T3EBt_JhoE"
     },
     {
       "id": 22,
@@ -284,7 +305,8 @@
       "portfolio": "https://kirksudduth.github.io/KirkSudduth/",
       "email": "kirksudduth@gmail.com",
       "proImg": "/BW/KirkBW.jpg",
-      "funImg": "/Color/Kirk-Sudduth1.jpg"
+      "funImg": "/Color/Kirk-Sudduth1.jpg",
+      "capUrl": "yMDXY3DV4yI"
     }
   ]
 }

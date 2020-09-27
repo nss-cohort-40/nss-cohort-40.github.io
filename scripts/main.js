@@ -29,6 +29,10 @@ function cohortMembers(list) {
       <i class="m-2 fas fa-globe fa-2x contactIcons"></i>
       </a>`;
     }
+    //if student is marked as hired display a the hired banner
+    if (item.hired === true) {
+      studentContact += `<div class="ribbon ribbon-top-right"><span>Hired</span></div>`;
+    }
     //if student doesn't have a github site then don't display the icon
     if (item.github != null) {
       studentContact += `<a href=${item.github} target="_blank">
@@ -49,6 +53,17 @@ function cohortMembers(list) {
     }
     studentContact += `</div>`;
 
+    let modalClose = `
+            <center>
+              <button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
+              Back
+              </button>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>`;
+
     let studentInfo = `<div class="col-md-3 cohortMems">
           <img class="card-img-top" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
           <div class="card-body">
@@ -62,11 +77,21 @@ function cohortMembers(list) {
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
     if (item.bio != null) {
       studentInfo += `
-            <center><button type="button" class="btn btn-outline-primary title-font bottom" data-toggle="modal" data-target="#cohortMember${item.id}">
-           Learn More!
-          </button></center>
+          <center>
+            <button type="button" class="btn btn-outline-primary title-font bottom btn-modal-trigger" data-toggle="modal" data-target="#cohortMember${item.id}">
+              Learn More!
+            </button>
+          </center>
+          <center>`;
+      if (item.capUrl) {
+        studentInfo += `
+            <button type="button" class="btn btn-outline-primary title-font bottom btn-modal-trigger" data-toggle="modal" data-target="#studentCapstone${item.id}">
+            Capstone Demo
+              </button>
+            </center>
           </div>
         </div>`;
+      }
       //modal info
       studentInfo += `
         <div class="modal fade" id="cohortMember${item.id}" tabindex="-1" role="dialog" aria-labelledby="cohortMember${item.id}Label" aria-hidden="true">
@@ -84,20 +109,28 @@ function cohortMembers(list) {
                 <div class="media-body m-3">
                   <h5 class="text-center media-object">${item.reelThemIn}</h5>
                   ${item.bio}
-                  </div>
+                </div>
+              </div>`;
+      studentInfo += studentContact;
+      studentInfo += modalClose
+      // capstone vid modal info
+      studentInfo +=`
+        <div class="modal fade" id="studentCapstone${item.id}" tabindex="-1" role="dialog" aria-labelledby="studentCapstone${item.id}Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title title-font" id="studentCapstone${item.id}Label">${item.firstName} ${item.lastName}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body align-items-center">
+              <div class="capstone-container media d-flex flex-wrap align-items-center">
+                <iframe src="https://www.youtube.com/embed/${item.capUrl}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
           </div>
                 `;
-    studentInfo += studentContact;
-    studentInfo += `
-    
-              <center>
-                <button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
-                  Back
-                </button>
-              </center>
-            </div>
-          
-          </div> `;
+      studentInfo += modalClose;
     } else {
       studentInfo += `
         </div>
@@ -105,6 +138,11 @@ function cohortMembers(list) {
         `;
     }
     document.getElementById("cohort").innerHTML += studentInfo;
+    // Make sure videos stop playing if user clicks away from modal
+    $('.modal').on('hide.bs.modal', function() {
+      var memory = $(this).html();
+      $(this).html(memory);
+    });
   });
 }
 
